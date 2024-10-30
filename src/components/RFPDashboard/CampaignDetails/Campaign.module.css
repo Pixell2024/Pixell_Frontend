@@ -1,0 +1,17 @@
+/* Target the specific section */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px; /* Adjust scrollbar width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--disabled-color); /* Track background color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--para-color); /* Thumb color */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--para-color); /* Thumb hover effect */
+}

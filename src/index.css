@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* Define custom properties (CSS variables) under :root */
+:root {
+  --heading-color: #36383a;
+  --primary-color: #418cff;
+  --secondary-color: #ffffff;
+  --third-color: #27dc54;
+  --info-color: #7fb8ff;
+  --disabled-color: #eeeeee;
+  --para-color: #6b7280;
+  --light-grey-color: #d9dadb;
+  --light-primary-color: #daf1ff;
+  --light-column-color: #1fbdf1;
+  --error-color: #ff5555;
+  --empty-color: transparent;
+  --font-family-base: "Inter", sans-serif;
+  --bg-color: #e0ecfa;
+  --all-black: #010101;
+  --listdown-color: #b0b0b0;
+  --border-color: #ff5555;
+  --light-info: #e1ecff;
+  --dashboard-bg-color: #f7fafc;
+  --yellow-bgChip-color: #fef3c7;
+  --green-bgChip-color: #d1fae5;
+  --textChip-yellow-color: #f59e0b;
+  --textChip-green-color: #34d399;
+
+}
+/* Global styles for body */
+body {
+  font-family: var(--font-family-base);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: var(--heading-color);
+  font-size: 1.3rem;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 1.3rem;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  color: var(--para-color);
+  font-size: 0.8rem;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+a {
+  color: var(--primary-color);
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 500;
+}

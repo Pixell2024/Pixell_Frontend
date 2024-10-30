@@ -1,0 +1,119 @@
+/* Header background section */
+.header {
+  background-image: url("/public/assests/clientdashboard/accountsetting/account-banner-img.png"); /* Replace with actual image URL */
+  background-size: cover;
+  background-position: center;
+  height: 200px; /* Adjust as needed */
+  width: 99%;
+  position: relative;
+  border-radius: 0.8rem;
+  margin-right: 1rem;
+}
+
+/* Profile image overlapping on the header */
+.profileImage {
+  position: absolute;
+  left: 20px;
+  bottom: -40px; /* Adjust to overlap image on the header */
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: white;
+}
+
+/* Main container for form section */
+.accountFormContainer {
+  /* background-color: rgb(240, 183, 183); */
+  margin-top: 60px;
+  flex: 1;
+  border-radius: 0.8rem;
+  width: 99%;
+}
+
+/* Root element to set the entire page height */
+.root {
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Button container with horizontal scrolling */
+.buttonContainer {
+  padding: 0.8rem 0rem 0.8rem 0.4rem;
+  overflow-x: auto; /* Enables horizontal scrolling */
+}
+
+/* profile section */
+.profileContainer {
+  padding: 20px;
+  border-radius: 8px;
+}
+.profileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.editButton {
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .profileContainer {
+    padding: 10px;
+  }
+
+  .editButton {
+    text-align: center;
+  }
+  .notificationsContainer {
+    padding: 15px;
+  }
+
+  .switchContainer {
+    text-align: left;
+  }
+  .section {
+    width: 100%;
+  }
+}
+
+.notificationsContainer {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #6e6e6e;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.subheading {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.notificationItem {
+  align-items: center;
+}
+
+.switchContainer {
+  text-align: right;
+}

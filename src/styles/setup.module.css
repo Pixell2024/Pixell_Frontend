@@ -1,0 +1,34 @@
+.imgSize {
+  background-image: url("../shared/assets/icons/Vector.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Target the specific section */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px; /* Adjust scrollbar width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--disabled-color); /* Track background color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color); /* Thumb color */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color); /* Thumb hover effect */
+}
+
+@media only screen and (max-width: 600px) {
+  .imgSize {
+    background-image: url("../shared/assets/icons/mobileBar.jpg");
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .clientformsetup {
+    flex-direction: column;
+  }
+}
